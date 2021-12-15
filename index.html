@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестове по Биология</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="box">
+
+        <header>
+            <nav>
+                <img src="./images/logo.png">
+                <a href="#">Начало</a>
+                <ul>
+                    <li><a href="#">Влизане</a></li>
+                    <li><a href="#">Регистрация</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content">
+            <section id="registerPage">
+                <form>
+                    <fieldset>
+                        <legend>Регистрация</legend>
+                        <label for="email" class="vhide">Email</label>
+                        <input id="email" class="email" name="email" type="text" placeholder="Имейл">
+                        
+                        <label for="password" class="vhide">Password</label>
+                        <input id="password" class="password" name="password" type="password" placeholder="Парола">
+                        
+                        <label for="conf-pass" class="vhide">Confirm Password:</label>
+                        <input id="conf-pass" class="conf-pass" name="conf-pass" type="password" placeholder="Повтори Парола">
+                        
+                        <button type="submit" class="register">Регистрация</button>
+                        
+                        <p class="field">
+                            <span>Ако вече имате профил натиснете <a href="/login">тук</a></span>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                &copy;Biotest 2022. All rights reserved.
+            </div>
+        </footer>
+</body>
+</html>
