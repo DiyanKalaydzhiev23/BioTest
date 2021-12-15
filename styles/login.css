@@ -50,8 +50,8 @@ input[type=text]::-webkit-input-placeholder, input[type=password]::-webkit-input
     transition: all 0.2s ease;
 }
 
-input[type=text]:hover, input[type=password]:hover {
-    border-color: #4e5966;
+#email:hover, input[type=password]:hover {
+    border-color: #39a086;
 }
 
 input[type=text]:focus, input[type=password]:focus {

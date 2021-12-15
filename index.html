@@ -22,26 +22,65 @@
         </header>
 
         <main id="main-content">
-            <section id="registerPage">
-                <form>
-                    <fieldset>
-                        <legend>Регистрация</legend>
-                        <label for="email" class="vhide">Email</label>
-                        <input id="email" class="email" name="email" type="text" placeholder="Имейл">
-                        
-                        <label for="password" class="vhide">Password</label>
-                        <input id="password" class="password" name="password" type="password" placeholder="Парола">
-                        
-                        <label for="conf-pass" class="vhide">Confirm Password:</label>
-                        <input id="conf-pass" class="conf-pass" name="conf-pass" type="password" placeholder="Повтори Парола">
-                        
-                        <button type="submit" class="register">Регистрация</button>
-                        
-                        <p class="field">
-                            <span>Ако вече имате профил натиснете <a href="/login">тук</a></span>
-                        </p>
-                    </fieldset>
-                </form>
+            <section id="catalogPage">
+                <h1>Теми</h1>
+                <div class="card-box">
+                    <img src='images/evolution.png'>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Еволюция</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src='images/cell.png'>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Клетъчна</p>
+                            <p class="name">Биология</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src=${album.imgUrl}>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Биохимия</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src='images/dnaGenetic.png'>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Генетика</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src=${album.imgUrl}>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Анатомия</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src=${album.imgUrl}>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Ботаника</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <img src=${album.imgUrl}>
+                    <div>
+                        <div class="text-center">
+                            <p class="name">Екология</p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
