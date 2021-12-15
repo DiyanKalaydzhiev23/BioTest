@@ -89,10 +89,10 @@ nav a:hover {
 }
 
 nav > img {
-    width: 150px;
+    width: 6em;
     height: 80px;
     margin-top: 0px;
-    margin-left: 0.2em;
+    margin-left: 1em;
     margin-right: 0.2em;
 }
 
@@ -101,7 +101,7 @@ nav > img {
         visibility: hidden;
         display: none;
     }
-  }
+}
 
 #dnaImage {
     position: absolute;
