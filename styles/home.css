@@ -1,8 +1,63 @@
 body {
-    background-image: url('../images/back.jpg');
+    background-image: url('../images/bg.jpg');
     background-size: cover;
-    background-color: #0B0C10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    text-align: center;
+    color: #c5c6c7;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+nav span {
+    display: none;
+    margin-right: 18vh;
+}
+
+#home {
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0B0C10;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav select {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    nav span {display: inline-block;}
+    nav ul { display: none; }
+    
+    .dropdown { display: inline-block; }
+    .dropdown-content { display: inline-block; }
+
+    #home { display: none; }
 }
 
 nav,
@@ -10,26 +65,11 @@ footer {
     background-color: #0B0C10;
     width: 100%;
     display: flex;
-    font-size: 16px;
     justify-content: space-around;
     align-items: center;
     margin-top: 0;
-    padding: 0 5px 0 3px;
     margin: 0%;
     color: white;
-}
-
-footer {
-    bottom: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #8f8f8f;
-    font-size: 20px;
-    font-weight: bolder;
-    position: relative;
-    margin: 20px;
 }
 
 nav ul {
@@ -38,7 +78,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 10 10px;
+    margin: 0 2px;
 }
 
 li::before {
@@ -50,6 +90,9 @@ nav a {
     border-radius: 50%;
     padding: 0.5em;
     color: white;
+    font-weight: bolder;
+    position: relative;
+    margin: 20px;
 }
 
 footer {
@@ -88,12 +131,12 @@ nav a:hover {
     width: 40%
 }
 
-nav > img {
-    width: 6em;
-    height: 80px;
+nav img {
+    width: 14vh;
+    height: 10vh;
+    left: 5px;
     margin-top: 0px;
-    margin-left: 1em;
-    margin-right: 0.2em;
+    margin-right: 40px;
 }
 
 @media screen and (max-width: 1025px) {
