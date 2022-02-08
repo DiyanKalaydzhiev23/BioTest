@@ -1,10 +1,21 @@
+#topicHeader {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Lato';
+    text-shadow: 5px 2px black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .text-box {
     box-shadow: 0px 0px 30px 0px #00f387;
     padding-bottom: 50px;
-    margin-left: 10%;
-    margin-bottom: 50px;
-    margin-top: 30px;
-    box-sizing: border-box;
+    margin: 3vh 0px 5vh 5vw;
     border-radius: 15px;
     height: 180px;
     width: 300px;
@@ -21,15 +32,6 @@
     box-shadow: 0px 0px 70px 0px #00f387;
 }
 
-#topicContentPage h1{
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 30px;
-    font-family: 'Lato';
-    text-shadow: 5px 2px black;
-}
-
 #topicContentPage > p {
     font-size: 40px;
     color: #45a29e;
@@ -39,29 +41,30 @@
     text-shadow: 2px 2px black solid;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+#topicContentPage {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
 }
 
 #search {
     display: inline;
-    width: 70%;
-    margin-top: 8px;
+    width: 80vw;
+    margin-top: 100px;
     margin-left: 5%;
 }
 
 #searchBtn {
     float: right;
-    display: inline;
-    margin-right: 10%;
-    width: 150px;
+    width: 100px;
     height: 50px;
     font-size: 15px;
-    margin-top: 0;
+    margin-left: 20px;
+    margin-top: 90px;
     
 }
 
 #searchBar {
+    display: flex;
     margin-bottom: 70px;
 }

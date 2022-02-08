@@ -1,16 +1,20 @@
 fieldset {
     margin: 1em auto;
     padding: 2em;
-    width: 25em;
+    width: 10vw;
     border-radius: 30px;
     border-color: #2d333b;
     background: #1b1f24;
     box-shadow: 0 2px 2px #131518;
 }
 
+form {
+    margin-top: 10vh;
+}
+
 fieldset legend {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     text-align: center;
@@ -21,7 +25,7 @@ fieldset legend {
     border-style: solid;
     border-radius: 30px;
     display: block;
-    width: 100%;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -65,21 +69,12 @@ input[type=text]:focus, input[type=password]:focus {
 	cursor: pointer;
 	border: none;
     border-radius: 24px;
-	display: inline;
-	align-items: center;
-	justify-content: center;
 	background-color: #00f387;
-	background-image: #00f387;
-	background-size: 200% 100%;
-	background-position: left;
-	background-repeat: no-repeat;
 	transition: 500ms;
     color: white;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-    margin-left: 25%;
+    margin: auto;
 }
 
 .register:hover, .login:hover {

@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Тестове по Биология</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div id="box">
 
-        <!--Navigation-->
         <header>
             <nav>
-                <img src="./images/headphones.png">
-                <a href="#">Начало</a>
+                <img src="./images/logo.png">
+                <a id='home' href="#">Начало</a>
+        
                 <ul>
-                    <!--Only guest-->
                     <li><a href="#">Влизане</a></li>
                     <li><a href="#">Регистрация</a></li>
                 </ul>
+        
+                <div class="dropdown">
+                    <span>Меню</span>
+                    <div class="dropdown-content">
+                        <a href="#">Начало</a>
+                        <a href="#">Влизане</a>
+                        <a href="#">Регистрация</a>
+                    </div>
+                </div>
             </nav>
         </header>
 
-        <main id="main-content">
+        <main>
             <section id="welcomePage">
                 <div id="welcome-message">
                     <h1>Добре дошли в</h1>
@@ -37,11 +45,11 @@
                     <button class="greenBtn">Към Тестовете</button>
                 </a>
                 
-                <img id="dnaImage" src="images/dna.png" alt="">
+                <img id="dnaImage" src="images/logo_transparent.png" alt="">
             </section>
         </main>
 
-        <footer>
+        <footer style="position: fixed;">
             <div>
                 &copy;Biotest 2022. All rights reserved.
             </div>

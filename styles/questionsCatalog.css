@@ -1,4 +1,4 @@
-main {
+#main-content {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -78,7 +78,7 @@ a {
 @media screen and (max-width: 450px) {
     main {
         margin-left: 10%;
-        margin-right: 0%;
+        margin-right: 10%;
     }
 
     .question {

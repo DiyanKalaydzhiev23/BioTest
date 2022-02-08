@@ -1,4 +1,8 @@
 body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
     background-image: url('../images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,16 +50,11 @@ nav span {
     display: block;
 }
 
-nav select {
-    display: none;
-}
-
 @media (max-width: 1000px) {
     nav span {display: inline-block;}
     nav ul { display: none; }
     
     .dropdown { display: inline-block; }
-    .dropdown-content { display: inline-block; }
 
     #home { display: none; }
 }
@@ -96,7 +95,6 @@ nav a {
 }
 
 footer {
-    position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -113,7 +111,7 @@ nav a:hover {
 }
 
 #welcomePage {
-    padding: 70px;
+    padding: 20vh 0vw 0vh 4vw;
     margin: 10px;
 }
 
@@ -123,12 +121,12 @@ nav a:hover {
 }
 
 #bonusMessage {
-    color: #4f4a69;    ;
+    color: #4f4a69;
     font-size: 20px;
 }
 
 #welcomePage img {
-    width: 40%
+    width: 800px;
 }
 
 nav img {
@@ -139,7 +137,7 @@ nav img {
     margin-right: 40px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1000px) {
     #dnaImage {
         visibility: hidden;
         display: none;
@@ -148,7 +146,7 @@ nav img {
 
 #dnaImage {
     position: absolute;
-    top: 120px;
+    top: 0vh;
     right: 60px;
 }
 
@@ -197,3 +195,4 @@ nav img {
     transition-property: all;
     transition-timing-function: line;
 }
+
