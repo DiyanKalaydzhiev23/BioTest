@@ -20,7 +20,7 @@ nav {
     text-align: center;
     color: #c5c6c7;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 1.5rem;
 }
 
 nav span {
@@ -125,10 +125,6 @@ nav a:hover {
     font-size: 20px;
 }
 
-#welcomePage img {
-    width: 800px;
-}
-
 nav img {
     width: 14vh;
     height: 10vh;
@@ -146,8 +142,9 @@ nav img {
 
 #dnaImage {
     position: absolute;
-    top: 0vh;
-    right: 60px;
+    width: 25vw;
+    top: 23vh;
+    right: 15vw;
 }
 
 .whiteBtn {

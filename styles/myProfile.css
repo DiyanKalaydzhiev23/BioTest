@@ -1,0 +1,60 @@
+h2 i {
+    color: #00f387;
+}
+
+.infoRow h2 {
+    color: white;
+}
+
+#profileData {
+    display: flex;
+    margin-top: 15vh;
+}
+
+#profileData img {
+    margin: 5vh 5vw 10vh 10vw;
+    height: 20%;
+    border-radius: 50%;
+}
+
+#infoBox {
+    margin: 2vh 5vw 5vh 5vw;
+}
+
+#xpStats {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#barContainer {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0vh auto 5vh;
+}
+
+#barFill {
+    height: 20px; 
+    color: white;
+    text-align: right;
+    background-color: #00f387;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    #profileData img {
+        width: 25vw;
+        height: 25vw;
+        margin: 0vh auto 5vh;
+        display: block;
+    }
+
+    #profileData {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
