@@ -110,7 +110,7 @@ function showChartPosition(position) {
     label
     .useHtml(true)
     .text(
-        `<span style = "color: white; font-size:1rem;">Позиция: ${position}</span>`
+        `<span class="chartText" style="color: white; font-size:1rem;">Позиция: ${position}</span>`
     )
     .position('center')
     .anchor('center')
